@@ -1,0 +1,61 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+html {
+  font-family: "Special Elite";
+}
+
+body {
+  margin: 0em;
+  padding: 1em 0em 0em 1em;
+  max-width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    max-width: 100%;
+  }
+}
+
+.homepage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.post-header {
+  font-size: 1.5em;
+  /* margin-bottom: 0.5em; */
+}
+
+.post-link,
+.post-link:visited,
+.post-link:active {
+  text-decoration: none;
+  color: black;
+  padding: 0.25em 0em 0.25em 0em;
+}
+
+.post-link:hover {
+  cursor: pointer;
+}
+
+.post-container {
+  width: 100%;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.post-content {
+  /* max-width: 65%; */
+}
