@@ -16,7 +16,7 @@ const IndexPage = ({
     ))
   return (
     <div class="homepage">
-      <div class="header">coffee in; words out</div>
+      <div class="header">coffee in words out</div>
       {Posts}
     </div>
   )

@@ -39,6 +39,7 @@ body {
 .post-link:active {
   text-decoration: none;
   color: black;
+  max-width: 150px;
   padding: 0.25em 0em 0.25em 0em;
 }
 
